@@ -1,0 +1,25 @@
+.login {
+    color: #fff;
+
+    .header {
+        padding: 30px 50px;
+        font-size: 20px;
+        background-color: #191919;
+        img{
+            margin-bottom: 8px;
+            margin-right: 10px;
+        }
+    }
+
+    .from {
+        background-color: #2e3a48;
+        padding: 40px 200px 80px;
+        width: 750px;
+        margin: 100px auto;
+        p{
+            text-align: center;
+            font-size: 18px;
+            font-weight: 600;
+        }
+    }
+}

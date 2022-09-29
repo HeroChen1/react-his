@@ -1,0 +1,9 @@
+@import 'antd/dist/antd.css';
+
+html,
+body,
+#root,
+.App {
+    /* height: 100%; -------------防止导航栏展开，内容部分被撑大*/
+    background-color: black;
+}

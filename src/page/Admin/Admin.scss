@@ -1,0 +1,45 @@
+.head {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+
+    .top {
+        // text-align: right;
+        height: 30px;
+        line-height: 30px;
+        border-bottom: 2px solid #c0e5d9;
+        padding: 0 50px;
+
+        .left {
+            float: left;
+            color: #0078d7;
+            font-weight: 800;
+            .coding{
+                margin-right: 25px;
+            }
+        }
+
+        .right {
+            float: right;
+            .ant-btn-primary{
+                background-color: #34ab86;
+                border: none;
+                margin-left: 25px;
+            }
+        }
+      
+        .exit {
+            margin-left: 25px;
+            color: #34ab86;
+            cursor: pointer;
+        }
+    }
+
+    .buttom {
+        height: 30px;
+        line-height: 30px;
+        padding: 0 50px;
+        display: flex;
+        justify-content: space-between;
+    }
+}
